@@ -69,10 +69,10 @@ a {
     margin-left:25% ;
 }
 
-.title h4 {
+.title-t {
     position: absolute;
-    top: 7%;
-    left: 2%;
+    top: 2px;
+    left: 8px;
     font-size: 53px;
     font-weight: normal;
 }
