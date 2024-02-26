@@ -65,28 +65,29 @@ a {
 
 /*---　About ---*/
 .title {
-    position: relative;
+    display: flex;
+    position: absolute;
     margin-top:70px ;
     margin-left:25% ;
 }
 
 .title-t {
     position: absolute;
-    top: 2px;
-    left: 8px;
+    top: 8%;
+    left: 2%;
     font-size: 53px;
     font-weight: normal;
 }
 .title p {
-    position: absolute;
-    top: 25%;
-    left: 15%;
+    margin-left: 30px;
+    margin-top: 40px;
     font-size: 16px;
     font-weight: normal;
     font-family: "noto sans jp thin";
 }
 
 .about-content {
+    margin-top: 200px;
     display: flex;
     justify-content:center;
     font-size:16px;
@@ -132,6 +133,7 @@ a {
 
 
 .works-content {
+    margin-top: 200px;
     display: grid;
     grid-template-columns:repeat(2,520px) ;
     justify-content: center;
@@ -178,6 +180,7 @@ a {
 /*--- ここからstrength ---*/
 
 .strength-content {
+    margin-top: 200px;
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -205,6 +208,7 @@ a {
 /*--- ここからcontact ---*/
 
 h6 {
+    margin-top: 200px;
     text-align: center;
     font-size: 16px;
     font-weight: normal;
@@ -262,7 +266,7 @@ textarea {
 
 .career-content {
     margin-bottom: 70px;
-    margin-top: 40px;
+    margin-top: 200px;
     display: flex;
     justify-content: center;
     font-family: "noto sans jp thin";
