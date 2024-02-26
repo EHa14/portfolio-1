@@ -65,7 +65,6 @@ a {
 
 /*---　About ---*/
 .title {
-    display: flex;
     position: absolute;
     margin-top:70px ;
     margin-left:25% ;
